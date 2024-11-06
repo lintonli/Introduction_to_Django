@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to django</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<h2>Welcome to django basic</h2>
+<p>my first day of learning django was more very inspiring and I am looking forward to gaining more insights</p>
+<a href="{% url "about" %}">About</a>
+</body>
+</html>
